@@ -11,6 +11,7 @@ package spring;
  */
 public class Hello {
     String msg;
+    String msgsend;
 
     public String getMsg() {
         return msg;
@@ -19,4 +20,13 @@ public class Hello {
     public void setMsg(String msg) {
         this.msg = msg;
     }
+
+    public String getMsgsend() {
+        return msgsend;
+    }
+
+    public void setMsgsend(String msgsend) {
+        this.msgsend = msgsend;
+    }
+    
 }
